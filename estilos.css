@@ -1,0 +1,80 @@
+/* estilos.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111; /* Cambiamos el color de fondo a oscuro */
+    margin: 0;
+    padding: 0;
+    color: white; /* Cambiamos el color del texto a blanco */
+    transition: background-color 0.3s, color 0.3s; /* Agregamos transiciones */
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    margin: 0;
+    padding: 0 20px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #ff9900;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.dark-theme {
+    background-color: #111;
+    color: white;
+}
+
+.dark-theme a {
+    color: #ff9900;
+}
